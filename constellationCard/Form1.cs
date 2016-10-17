@@ -10,11 +10,19 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Media;
 
+/* Michael Peterman
+ * October 16, 2016
+ * ICS3U Unit 2 Summative Project
+ * Purpose: Create an on-line "greeting card" program that informs the user about one of the star constellations.
+ * There will be a “front page” with an appropriate design, title, your name, and the date. When the user clicks on the card it will “open” to the inside.
+ * Inside the card there will be an accurate display of the constellation as well as information about it.
+ */
+
 namespace constellationCard
 {
-    public partial class Form1 : Form
+    public partial class triangulumGreetingCard : Form
     {
-        public Form1()
+        public triangulumGreetingCard()
         {
             InitializeComponent();
         }
